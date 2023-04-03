@@ -19,3 +19,7 @@
 使用给定的 replacement 替换此字符串所有匹配给定的正则表达式的子字符串。
 - String replaceFirst(String regex, String replacement)  
 使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。
+
+# [StringBuffer](https://www.runoob.com/java/java-stringbuffer.html)
+- StringBuilder不是线程安全但有速度优势，StringBuffer线程安全。
+- 回溯时常用toString()、append()、deleteCharAt()方法。
