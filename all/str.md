@@ -22,4 +22,4 @@
 
 # [StringBuffer](https://www.runoob.com/java/java-stringbuffer.html)
 - StringBuilder不是线程安全但有速度优势，StringBuffer线程安全。
-- 回溯时常用toString()、append()、deleteCharAt()方法。
+- 回溯时常用toString()、append()、deleteCharAt()方法。删除末尾元素为 a.deleteCharAt(a.length() - 1);
