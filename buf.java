@@ -1,11 +1,16 @@
+import java.util.PriorityQueue;
+
 public class buf{
     public static void main(String[] args) {
-        System.out.println("hello world");
-        String a = "dfa";
-        String b = "www";
-        String c = a.concat(b);
-        System.out.println(c);
-        Boolean tag = a.charAt(0) == a.charAt(1) && false;
-        System.out.println(tag);
+        PriorityQueue<Integer> a = new PriorityQueue<>();
+        a.add(4);
+        a.add(5);
+        a.add(4);
+        System.out.println(a);
+        while(!a.isEmpty()) {
+            System.out.println(a.poll());
+        }
+        // a.remove(4);
+        System.out.println(a);
     }
 }
