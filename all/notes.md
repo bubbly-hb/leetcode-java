@@ -5,3 +5,9 @@
 # [推荐使用Deque替代Stack使用](https://www.cainiaojc.com/java/java-deque.html)
 Deque是一个双端队列接口，继承自Queue接口，Deque的实现类是LinkedList、ArrayDeque、LinkedBlockingDeque，其中LinkedList是最常用的。  
 作为栈时，push() pop() peek() isEmpty()
+
+# List<Integer>转int[]
+```java
+a.stream().mapToInt(x->x).toArray();
+```
+
